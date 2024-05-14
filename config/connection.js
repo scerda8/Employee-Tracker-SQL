@@ -1,16 +1,11 @@
-const Sequelize =require('sequelize');
-require('dotenv').config();
-//create a conncection object
-const sequelize = new Sequelize(
-    //connecting it to .env for password protection
-    process.env.DB_NAME,
-    process.env.DB_USER,
-    process.env.DB_PASSWORD,
-    {
+const { Pool } = require('pg');
 
-        //Database location
-        host:'localhost',
-        dialect:'postgres'
-    }
-);
-module.exports=sequelize;
+const pool = new Pool({
+    user: 'postgres',
+    host: 'localhost',
+    database: 'employee_tracker_db',
+    password: "Redpanda8473$!",
+    port: 5432,
+});
+
+module.exports = pool;

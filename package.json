@@ -11,9 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "asciiart-logo": "^0.2.7",
+    "chalk": "^3.0.0",
+    "cli-table3": "^0.6.4",
     "dotenv": "^8.6.0",
     "env": "^0.0.2",
     "express": "^4.19.2",
+    "figlet": "^1.7.0",
     "inquirer": "^8.2.4",
     "pg": "^8.11.5",
     "sequelize": "^6.33.0"
