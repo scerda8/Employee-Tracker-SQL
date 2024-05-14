@@ -2,6 +2,24 @@ Title: Employee-Tracker-SQL
 
 Description: The goal is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL. So the user is able to view current employees in each categtory labeled:department,employee,and roles.The user is also able to update the employee and see it displayed in the "view employees" option. 
 
+Table of Contents:
+
+Title
+
+Description
+
+User Story
+
+Acceptance Criteria
+ 
+Link to github repo
+
+Video demo
+
+
+
+
+
 
 
 User Story:
