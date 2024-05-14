@@ -8,7 +8,7 @@ const pool = require('./config/connection');
 // Start the application after the connection is ready
 function initialPrompt() {
 
-    // ASCII ART IS BEING ADDED WITH THE BELOW PACKAGE
+    // ASCII ART is added with the package used below..//
 
     figlet('EMPLOYEE MANAGER', function (err, data) {
         if (err) {
@@ -24,7 +24,7 @@ function initialPrompt() {
 
 initialPrompt();
 
-// Function to prompt the user for what they would like to do
+// Function to prompt the user for what they would like to do when prompts come up 
 
 function startApp () {
 
@@ -42,7 +42,7 @@ function startApp () {
             'Add Department',
             'Exit'
         ]
-    }).then((answers) => { // Switch case to handle the user selection
+    }).then((answers) => { // Switch case to handle the user selection when chosen by user 
         switch (answers.choice) {
             case 'View All Employees':
                 viewEmployees();
@@ -72,7 +72,7 @@ function startApp () {
         });
     }
 
-// Function to display department-related options
+// Function to display department options
 const addDepartment  = async () => {
     inquirer.prompt({
         type: 'input',
@@ -86,7 +86,7 @@ const addDepartment  = async () => {
     });
 }
 
-// Function to display role-related options
+// Function to display role options
 
 const addRole = async () => {
     const departments = await pool.query ('SELECT id as value, name as name FROM department')
@@ -115,7 +115,7 @@ const addRole = async () => {
     });
 }
 
-// Function to display employee-related options
+// Function to display employee options
 
 const addEmployee = async () => {
     const roles = await pool.query('SELECT id as value, title as name FROM role');
@@ -181,7 +181,7 @@ const updateEmployeeRole = async () => {
 }
 
 
-// Function to display employee-related options
+// Function to display employee options
 
 const viewEmployees = async () => {
 
