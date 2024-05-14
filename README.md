@@ -1,6 +1,24 @@
 Title: Employee-Tracker-SQL
 
-Description: The goal is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL.
+Description: The goal is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL. So the user is able to view current employees in each categtory labeled:department,employee,and roles.The user is also able to update the employee and see it displayed in the "view employees" option. 
+
+Table of Contents:
+
+Title
+
+Description
+
+User Story
+
+Acceptance Criteria
+ 
+Link to github repo
+
+Video demo
+
+
+
+
 
 
 
@@ -51,3 +69,15 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+
+
+ Github repo: 
+https://github.com/scerda8/Employee-Tracker-SQL
+
+video demo:
+
+https://github.com/scerda8/Employee-Tracker-SQL/assets/159675591/4d72304b-72c0-4390-a13f-56f78ca38c19
+
+![image](https://github.com/scerda8/Employee-Tracker-SQL/assets/159675591/7af37727-21a2-48c1-890c-bc9e4d516cf8)
+
