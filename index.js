@@ -12,7 +12,7 @@ function initialPrompt() {
 
     figlet('EMPLOYEE MANAGER', function (err, data) {
         if (err) {
-            console.log('Something went wrong...');
+            console.log('uh-oh error...');
             console.dir(err);
             return;
         }
